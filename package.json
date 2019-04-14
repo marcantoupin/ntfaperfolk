@@ -1,0 +1,23 @@
+{
+  "name": "ntfaperfolk",
+  "version": "1.0.0",
+  "description": "Antifa propaganda delivery game",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -p 5000",
+    "watch": "watchify index.js -v --verbose -o bundle.js"
+  },
+  "keywords": [
+    "antifa",
+    "game",
+    "runner",
+    "bicycle"
+  ],
+  "author": "Marc-André Toupin",
+  "license": "ISC",
+  "dependencies": {
+    "p5": "^0.8.0",
+    "serve": "^11.0.0",
+    "watchify": "^3.11.1"
+  }
+}
