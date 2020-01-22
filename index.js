@@ -1,6 +1,7 @@
-require('./lib/p5/p5.min.js')
-const globals = require('./lib/ntf-globals.js')
-const ntf = require('./lib/ntf-classes.js')
+import './lib/p5/p5.min.js'
+import globals from './lib/ntf-globals.js'
+import ntf     from './lib/ntf-classes.js'
+
 
 let axes = ntf.Pool(40,ntf.ProjectileThrownAxe)
 let targets = ntf.Pool(40,ntf.Target)
